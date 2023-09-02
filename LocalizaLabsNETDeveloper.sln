@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalizaLabsNETDeveloper", "LocalizaLabsNETDeveloper\LocalizaLabsNETDeveloper.csproj", "{3CA35DB1-E3E0-4C26-94B0-B9650FF2476C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalizaLabsNETDeveloper", "LocalizaLabsNETDeveloper\LocalizaLabsNETDeveloper.csproj", "{3CA35DB1-E3E0-4C26-94B0-B9650FF2476C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vaquinha", "Vaquinha\Vaquinha.csproj", "{FD1043EE-1B4B-4292-8684-1D70A713C2D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vaquinha.Domain", "Vaquinha.Domain\Vaquinha.Domain.csproj", "{69F98480-1C8D-4E60-8693-3BD89BFE33A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vaquinha.Repository", "Vaquinha.Repository\Vaquinha.Repository.csproj", "{7A6C92AC-500B-4224-B2EF-E69913A2D0D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vaquinha.Service", "Vaquinha.Service\Vaquinha.Service.csproj", "{E2B9AFBD-4C30-4CE3-B6D0-FBE27D8DBAFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{3CA35DB1-E3E0-4C26-94B0-B9650FF2476C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CA35DB1-E3E0-4C26-94B0-B9650FF2476C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CA35DB1-E3E0-4C26-94B0-B9650FF2476C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1043EE-1B4B-4292-8684-1D70A713C2D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1043EE-1B4B-4292-8684-1D70A713C2D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1043EE-1B4B-4292-8684-1D70A713C2D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1043EE-1B4B-4292-8684-1D70A713C2D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69F98480-1C8D-4E60-8693-3BD89BFE33A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F98480-1C8D-4E60-8693-3BD89BFE33A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69F98480-1C8D-4E60-8693-3BD89BFE33A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69F98480-1C8D-4E60-8693-3BD89BFE33A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A6C92AC-500B-4224-B2EF-E69913A2D0D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6C92AC-500B-4224-B2EF-E69913A2D0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6C92AC-500B-4224-B2EF-E69913A2D0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6C92AC-500B-4224-B2EF-E69913A2D0D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2B9AFBD-4C30-4CE3-B6D0-FBE27D8DBAFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B9AFBD-4C30-4CE3-B6D0-FBE27D8DBAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B9AFBD-4C30-4CE3-B6D0-FBE27D8DBAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B9AFBD-4C30-4CE3-B6D0-FBE27D8DBAFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
